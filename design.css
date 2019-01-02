@@ -1,0 +1,117 @@
+
+body {
+	background-color: #232323;
+	margin: 0 auto;
+	font-family: "Montserrat", "Avenir";
+}
+
+
+
+/*MAIN TITLE*/
+
+	.title {
+		background-color: steelblue;
+		margin: 0 auto;
+		font-weight: normal;
+		text-transform: uppercase;
+		padding: 20px 0px;
+		transition: all 0.5s;
+	}
+
+		h1 {
+			text-align: center;
+			font-weight: normal;
+			margin: 0;
+			line-height: 1.1;
+		}
+
+			.maintitle {
+				font-size: 4em;
+			}
+
+
+
+
+/*SUBMENU*/
+
+	.submenu {
+		background-color: white;
+		height: 30px;
+		margin: 0 auto;
+	}
+
+		.submenu_container {
+			width: 600px;
+			height: 30px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+			.object_container {
+				width: 33.33%;
+				height: 100%;
+				float: left;
+			}
+
+				#new {
+					margin: 0 auto;
+					height: 100%;
+				}
+
+				#message {
+					margin: 0 auto;
+					padding: 3px;
+					transition: all 0.5s;
+				}
+
+				#easy {
+					margin: 0 auto;
+					height: 100%;
+				}
+
+				#hard {
+					margin: 0 auto;
+					height: 100%;
+				}
+
+					button {
+						border: none;
+						text-transform: uppercase;
+						background-color: white;
+						font-weight: lighter;
+						font-size: inherit;
+						transition: all 0.3s;
+						outline: none;
+					}
+
+					button:hover {
+						color: white;
+						background-color: steelblue;
+					}
+
+
+/*COLORS*/
+
+	#colors {
+		width: 600px;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+
+		.square {
+			background: purple;
+			width: 30%;
+			margin: 1.66%;
+			padding-bottom: 30%;
+			float: left;
+			border-radius: 15%;
+			transition: all 0.5s;
+		}
+
+
+
+/*///////////////////////////////*/
+
+.btest {
+	border: 1px dotted red;
+}
